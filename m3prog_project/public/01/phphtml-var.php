@@ -1,3 +1,17 @@
+<?php
+//hier komt code
+$title = "Mijn mooie website";
+$datum = date('d-m-Y');
+$tijd = date("H:i");
+$favorieteGame = "Super metroid";
+$mooisteGetal = 42;
+
+echo $title;
+echo $datum;
+echo $tijd;
+echo $favorieteGame;
+echo $mooisteGetal;
+?>
 <!doctype html>
 <html lang="nl">
     <head>
