@@ -18,5 +18,33 @@ $games = ["Fate/Grand Order",
     echo "<br>";
     echo $games[4];
     echo "<br>";
-    echo $namen;
+    // echo $namen;
+    echo count($games)."<br>";
     echo "<br>";
+    echo "<br>";
+
+    // Lange manier
+array_push($games, "Goddess Connect");
+
+// Verkorte manier 
+$games[] = "Tower of Fantasy";
+
+//De array $dagen wordt bevat nu een extra element
+echo count($games); // 7
+
+    echo "<br>";
+    echo "<br>";
+
+echo implode(' >> ', $games);
+
+    echo "<br>";
+    echo "<br>";
+
+// Sorteer op alfabet
+sort($games);
+print_r($games);
+
+    echo "<br>";
+    echo "<br>";
+
+echo implode('<br>', $games);
