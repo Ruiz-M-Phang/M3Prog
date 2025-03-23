@@ -26,14 +26,16 @@ $totaalBenzinePrijs2 = ($benzinePrijs2 * $benzineCapiciteit) * $aantalTanken; //
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/reiskostenStyle.css">
 </head>
 <body>
+    <article>
     <h1>Info: Reis naar Bordeaux</h1>
     <p>De totale afstand naar Bordeaux is <?= $afstandInKm * 1000 ?> km.</p>
-    <p>Je hebt <?= $totaalVerbruik ?> liter benzine nodig om naar Bordeaux te gaan.</p>
+    <p>Je hebt <em><?= $totaalVerbruik ?></em> liter benzine nodig om naar Bordeaux te gaan.</p>
     <p>Je moet <?= $aantalTanken ?> keer tanken onderweg.</p>
-    <p>Het totale benzine prijs is <?= $totaalBenzinePrijs ?> euro.</p>
+    <p>Het totale benzine prijs is <em><?= $totaalBenzinePrijs ?></em> euro bij Euro 95.</p>
+    <p>Het totale benzine prijs is <em><?= $totaalBenzinePrijs2 ?></em> euro bij Euro 69.</p>
     <br>
     <h3>Tanken met Euro 95?</h3>
     <?php
@@ -53,5 +55,6 @@ $totaalBenzinePrijs2 = ($benzinePrijs2 * $benzineCapiciteit) * $aantalTanken; //
         echo "Ik ga met de auto"; // : )
     }
     ?>
+    </article>
 </body>
 </html>
