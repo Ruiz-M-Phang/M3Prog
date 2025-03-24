@@ -17,6 +17,16 @@
     $getal2 = 11.97131; //Hint: het is Autorelatieve Code
     $afgerond2 = floor($getal2); 
     echo "Als je $getal2 afrond dan krijg je: $afgerond2";
+    echo "<br><br>";
+
+    $random1 = rand(1, 9);
+    $random2 = rand(0, 9);
+    $random3 = rand(0, 9);
+
+    $randomUitkomst = ($random1 + $random2) / $random3;
+
+    echo "($random1 + $random2) : $random3 = $randomUitkomst";
+
 
 ?>
 <!DOCTYPE html>
