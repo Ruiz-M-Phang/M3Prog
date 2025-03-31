@@ -1,0 +1,44 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+html {
+    font-size: 62.5%; /* font is 10px */
+    scroll-behavior: smooth;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input[type=checkbox] {
+    height: 2rem;
+    width: 2rem;
+}
+
+input[type=radio] {
+    height: 2rem;
+    width: 2rem;
+}
+
+input[type=number] {
+    width: 10%;
+}
+
+input[type=submit] {
+    width: 6rem;
+    height: 3rem;
+}
+
+form {
+    margin: 4rem;
+    padding: 2rem;
+    margin-right: 38rem;
+    background-color: antiquewhite;
+}
