@@ -10,6 +10,6 @@ $steden = [
 
 $jsonString = json_encode($steden);
 
-echo $jsonString
+echo $jsonString;
 
 ?>
