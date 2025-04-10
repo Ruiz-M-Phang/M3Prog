@@ -50,11 +50,8 @@ echo "<br><br>";
 
 foreach($lunchItem as $item) {
   echo "<h1>$item->naam</h1>";
-  echo "<br>";
-  echo $item->prijs;
-  echo "<br>";
-  echo $item->beschijving;
-  echo "<br>";
+  echo "<p>$item->prijs</p>";
+  echo "<p>$item->beschijving</p>";
   echo "<br>";
 }
 
