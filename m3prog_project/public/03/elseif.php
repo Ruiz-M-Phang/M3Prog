@@ -2,8 +2,8 @@
 
     //R = rood, O = oranje, G = groen
     // $stoplichtKleur = "R";
-    $stoplichtKleur2 = "O";
-    // $stoplichtKleur1 = "G";
+    // $stoplichtKleur2 = "O";
+    $stoplichtKleur1 = "G";
 
 ?>
 <!DOCTYPE html>

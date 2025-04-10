@@ -1,6 +1,6 @@
 <?php
 
-// header('Content-Type: application/json');
+header('Content-Type: application/json');
 
 $json = '{
   "bioscoop": {
@@ -34,10 +34,14 @@ $json = '{
   }
 ';
 
-$jsonRead = json_decode($json);
+// reading json in php
+// $jsonRead = json_decode($json);
+// $jsonString = json_encode($jsonRead);
+// print_r($jsonRead);
 
-$jsonString = json_encode($jsonRead);
-
-print_r($jsonRead);
+// reading json in browser inspector
+$jsonString = json_encode($json);
+$jsonRead = json_decode($jsonString);
+echo $jsonRead;
 
 ?>
